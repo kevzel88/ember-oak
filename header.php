@@ -14,7 +14,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-<a class="sr-only" href="#main"><?php esc_html_e('Skip to content','ember-oak'); ?></a>
+<a class="sr-only skip-link" href="#main"><?php esc_html_e('Skip to content','ember-oak'); ?></a>
 
 <header id="masthead" class="site-header">
   <div class="site-header__inner">
@@ -23,11 +23,15 @@
       <?php if ( has_custom_logo() ) : ?>
         <?php the_custom_logo(); ?>
       <?php else : ?>
-        <?php if ( is_front_page() ) : ?>
-          <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-        <?php else : ?>
-          <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-        <?php endif; ?>
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo-link" rel="home">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri().'/assets/images/logo.svg'); ?>"
+            alt="<?php bloginfo('name'); ?>"
+            width="200"
+            height="50"
+            class="site-logo-img"
+          >
+        </a>
       <?php endif; ?>
     </div>
 
@@ -45,10 +49,10 @@
         'container'      => false,
         'fallback_cb'    => function() {
           echo '<ul id="primary-menu" class="primary-menu">';
-          echo '<li><a href="'.esc_url(home_url('/')).'">Home</a></li>';
-          $pages = get_pages(['number'=>6]);
+          $pages = get_pages(['number' => 8, 'sort_column' => 'menu_order']);
           foreach ($pages as $p) {
-            echo '<li><a href="'.esc_url(get_permalink($p->ID)).'">'.esc_html($p->post_title).'</a></li>';
+            $current = (get_the_ID() == $p->ID) ? ' class="current-menu-item"' : '';
+            echo '<li'.$current.'><a href="'.esc_url(get_permalink($p->ID)).'">'.esc_html($p->post_title).'</a></li>';
           }
           echo '</ul>';
         },

@@ -1023,3 +1023,123 @@ img { height: auto; }
 
 /* Focus visible */
 :focus-visible { outline: 2px solid var(--color-caramel); outline-offset: 2px; }
+
+/* =========================================================================
+   LOGO
+   ========================================================================= */
+.site-logo-link { display: flex; align-items: center; }
+.site-logo-img  { height: 46px; width: auto; display: block; }
+.custom-logo    { height: 46px; width: auto; }
+.custom-logo-link { display: flex; align-items: center; }
+
+/* =========================================================================
+   BREADCRUMB (template classes)
+   ========================================================================= */
+.breadcrumb__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+}
+.breadcrumb__item, .breadcrumb__separator { color: rgba(255,255,255,.55); }
+.breadcrumb__link { color: rgba(255,255,255,.7); }
+.breadcrumb__link:hover { color: var(--color-caramel); }
+.breadcrumb__item--current { color: rgba(255,255,255,.85); }
+
+/* Page hero variants */
+.page-hero__overlay {
+  position: absolute; inset: 0;
+  background: rgba(26,15,10,.55);
+}
+.page-hero__inner { position: relative; z-index: 1; padding-block: var(--space-3xl) var(--space-2xl); }
+.page-hero { position: relative; background: linear-gradient(135deg, var(--color-espresso), var(--color-roast)); color: var(--color-white); overflow: hidden; }
+.page-hero__title { color: var(--color-white); font-size: clamp(2rem,5vw,3.5rem); }
+
+/* =========================================================================
+   ROAST FILTER (page-menu.php classes)
+   ========================================================================= */
+.roast-filter__btn {
+  padding: 0.5rem 1.25rem;
+  border: 2px solid rgba(0,0,0,.12);
+  border-radius: var(--radius-full);
+  background: var(--color-white);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all var(--transition);
+  color: var(--color-charcoal);
+}
+.roast-filter__btn:hover,
+.roast-filter__btn--active {
+  background: var(--color-caramel);
+  border-color: var(--color-caramel);
+  color: var(--color-white);
+}
+
+/* =========================================================================
+   BLEND CARD BODY (page-menu.php classes)
+   ========================================================================= */
+.blend-card__thumbnail {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--color-cream);
+}
+.blend-card__thumbnail img,
+.blend-card__image { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.blend-card:hover .blend-card__image { transform: scale(1.05); }
+.blend-card__image-placeholder {
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, var(--color-roast), var(--color-mahogany));
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,.25); font-size: 3rem;
+}
+.blend-card__image-placeholder-icon::before { content: '☕'; }
+
+.blend-card-body { padding: var(--space-lg); }
+.blend-card-body__title { font-size: 1.2rem; color: var(--color-espresso); margin-bottom: var(--space-sm); }
+.blend-card-body__badges { display: flex; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-sm); }
+.blend-card-body__tasting-notes { font-size: 0.875rem; color: var(--color-mist); margin-bottom: var(--space-md); line-height: 1.5; }
+.blend-card-body__price { margin-bottom: var(--space-md); }
+.blend-card-body__price-amount { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; color: var(--color-caramel); }
+.blend-card-body__price-unit { font-size: 0.8rem; color: var(--color-mist); margin-left: 2px; }
+.blend-card-body__actions { display: flex; gap: var(--space-sm); flex-wrap: wrap; padding-top: var(--space-md); border-top: 1px solid rgba(0,0,0,.06); }
+.blend-card-body__link { flex: 1; text-align: center; }
+.blend-card-body__add-to-bag { flex: 1; text-align: center; }
+
+/* btn-- variants (BEM double-dash) */
+.btn--primary   { background: var(--color-caramel); color: var(--color-white); border: 2px solid var(--color-caramel); border-radius: var(--radius-sm); padding: 0.6rem 1.25rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all var(--transition); display: inline-flex; align-items: center; justify-content: center; }
+.btn--primary:hover { background: var(--color-mahogany); border-color: var(--color-mahogany); color: var(--color-white); }
+.btn--secondary { background: transparent; color: var(--color-caramel); border: 2px solid var(--color-caramel); border-radius: var(--radius-sm); padding: 0.6rem 1.25rem; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all var(--transition); display: inline-flex; align-items: center; justify-content: center; }
+.btn--secondary:hover { background: var(--color-caramel); color: var(--color-white); }
+
+/* =========================================================================
+   ABOUT PAGE (template classes)
+   ========================================================================= */
+.about-hero { position: relative; background: linear-gradient(135deg, var(--color-espresso), var(--color-roast)); }
+.mission-section__quote { font-family: var(--font-serif); font-size: clamp(1.3rem,3vw,2rem); color: var(--color-espresso); font-style: italic; line-height: 1.5; text-align: center; max-width: 720px; margin: 0 auto var(--space-md); }
+.mission-section__attribution { text-align: center; color: var(--color-mist); font-style: italic; }
+.our-story__grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3xl); align-items: center; }
+.our-story__content h2 { margin-bottom: var(--space-lg); }
+.our-story__content p  { color: var(--color-mist); margin-bottom: var(--space-md); }
+.our-story__image { aspect-ratio: 1; border-radius: var(--radius-lg); overflow: hidden; background: linear-gradient(135deg, var(--color-roast), var(--color-mahogany)); }
+.our-story__image img { width: 100%; height: 100%; object-fit: cover; }
+.team-member__image { aspect-ratio: 1; overflow: hidden; background: linear-gradient(135deg, var(--color-cream), #e8c89a); display: flex; align-items: center; justify-content: center; font-size: 3.5rem; }
+.team-member__image img { width: 100%; height: 100%; object-fit: cover; }
+.team-member__body { padding: var(--space-lg); }
+.team-member__name { font-size: 1.15rem; margin-bottom: 4px; }
+.team-member__role { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-caramel); font-weight: 700; margin-bottom: var(--space-sm); }
+.team-member__bio  { font-size: 0.9rem; color: var(--color-mist); }
+.value-card__icon { font-size: 2rem; margin-bottom: var(--space-md); }
+.press-section { padding-block: var(--space-2xl); }
+.press-logos { display: flex; flex-wrap: wrap; gap: var(--space-xl); justify-content: center; align-items: center; margin-top: var(--space-xl); }
+.press-logo { padding: var(--space-md) var(--space-xl); background: var(--color-milk); border-radius: var(--radius-md); font-weight: 700; color: var(--color-mist); font-size: 0.9rem; letter-spacing: 0.05em; filter: grayscale(1); transition: filter var(--transition); }
+.press-logo:hover { filter: grayscale(0); color: var(--color-espresso); }
+
+@media (max-width: 768px) {
+  .our-story__grid { grid-template-columns: 1fr; }
+  .blend-card-body__actions { flex-direction: column; }
+}

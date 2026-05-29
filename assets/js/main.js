@@ -52,15 +52,19 @@
       if (panels.length) panels[0].classList.add('active');
     });
 
-    // ── Blend Archive Filter ──────────────────────────────────────────────
-    var filterBtns = document.querySelectorAll('.filter-btn');
+    // ── Blend Archive / Menu Filter ───────────────────────────────────────
+    var filterBtns = document.querySelectorAll('.filter-btn, .roast-filter__btn');
     var blendCards = document.querySelectorAll('.blend-card[data-roast]');
     if (filterBtns.length && blendCards.length) {
       filterBtns.forEach(function (btn) {
         btn.addEventListener('click', function () {
-          filterBtns.forEach(function (b) { b.classList.remove('active'); });
+          filterBtns.forEach(function (b) {
+            b.classList.remove('active');
+            b.classList.remove('roast-filter__btn--active');
+          });
           btn.classList.add('active');
-          var filter = btn.dataset.filter;
+          btn.classList.add('roast-filter__btn--active');
+          var filter = btn.dataset.filter || btn.dataset.roast || 'all';
           blendCards.forEach(function (card) {
             var show = filter === 'all' || card.dataset.roast === filter;
             card.style.display = show ? '' : 'none';

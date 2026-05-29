@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <!-- Flame / ember icon -->
+  <g transform="translate(8,6)">
+    <path d="M24 44 C24 44 8 36 8 22 C8 14 14 8 20 6 C18 12 20 16 24 18 C22 14 24 10 28 8 C28 8 36 16 36 26 C36 36 28 42 24 44Z" fill="#c47a3a"/>
+    <path d="M24 44 C24 44 14 38 14 28 C14 22 18 18 22 16 C20 20 22 24 24 26 C24 22 26 18 28 16 C32 20 34 28 30 34 C28 38 26 42 24 44Z" fill="#3d1f14"/>
+    <ellipse cx="24" cy="32" rx="5" ry="6" fill="#f5ede0" opacity="0.25"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="58" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#1a0f0a" letter-spacing="1">Ember &amp; Oak</text>
+  <text x="59" y="44" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#8a8070" letter-spacing="3" font-weight="400">COFFEE ROASTERS</text>
+  <!-- Decorative rule -->
+  <line x1="58" y1="32" x2="230" y2="32" stroke="#c47a3a" stroke-width="0.75" opacity="0.4"/>
+</svg>
