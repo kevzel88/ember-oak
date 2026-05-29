@@ -1,49 +1,45 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Default page template — Ember & Oak
+ * @package EmberOak
+ */
+get_header();
+?>
 
-<div class="page-hero" style="<?php if ( has_post_thumbnail() ) { $img = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' ); echo 'background-image: url(' . esc_url( $img[0] ) . ');'; } ?>">
-	<div class="page-hero-inner">
-		<h1 class="page-title"><?php the_title(); ?></h1>
-		<nav class="breadcrumb" aria-label="<?php esc_attr_e( 'Breadcrumb', 'ember-oak' ); ?>">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'ember-oak' ); ?></a>
-			<span class="breadcrumb-sep" aria-hidden="true">&rsaquo;</span>
-			<span class="breadcrumb-current" aria-current="page"><?php the_title(); ?></span>
-		</nav>
-	</div>
+<?php while (have_posts()) : the_post(); ?>
+
+<div class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Home','ember-oak'); ?></a>
+      <span aria-hidden="true">›</span>
+      <span><?php the_title(); ?></span>
+    </nav>
+    <h1><?php the_title(); ?></h1>
+  </div>
 </div>
 
-<main id="primary" class="site-main">
-	<div class="container">
+<div class="container">
+  <article id="post-<?php the_ID(); ?>" <?php post_class('page-content'); ?>>
 
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <?php if (has_post_thumbnail()) : ?>
+      <div style="margin-bottom:2rem;border-radius:var(--radius-lg);overflow:hidden;max-height:420px;">
+        <?php the_post_thumbnail('ember-oak-wide',['style'=>'width:100%;object-fit:cover;']); ?>
+      </div>
+    <?php endif; ?>
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="entry-content">
+      <?php the_content(); ?>
+      <?php wp_link_pages(['before'=>'<div class="page-links">','after'=>'</div>']); ?>
+    </div>
 
-				<?php if ( has_post_thumbnail() ) : ?>
-					<div class="entry-thumbnail">
-						<?php echo wp_get_attachment_image( get_post_thumbnail_id(), 'large', false, array( 'class' => 'page-featured-image', 'alt' => get_the_title() ) ); ?>
-					</div>
-				<?php endif; ?>
+  </article>
+</div>
 
-				<div class="entry-content">
-					<?php the_content(); ?>
+<?php if (comments_open() || get_comments_number()) : ?>
+  <div class="container"><div class="comments-area"><?php comments_template(); ?></div></div>
+<?php endif; ?>
 
-					<?php
-					wp_link_pages( array(
-						'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ember-oak' ),
-						'after'  => '</div>',
-					) );
-					?>
-				</div>
-
-			</article>
-
-			<?php if ( comments_open() || get_comments_number() ) : ?>
-				<?php comments_template(); ?>
-			<?php endif; ?>
-
-		<?php endwhile; endif; ?>
-
-	</div>
-</main>
+<?php endwhile; ?>
 
 <?php get_footer(); ?>
