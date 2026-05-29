@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-get_template_part( 'header' );
+get_header();
 ?>
 
 	<?php
@@ -491,4 +491,4 @@ get_template_part( 'header' );
 		</div><!-- .cta-banner__inner -->
 	</section><!-- .cta-banner -->
 
-<?php get_template_part( 'footer' ); ?>
+<?php get_footer(); ?>
