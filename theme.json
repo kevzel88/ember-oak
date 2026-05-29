@@ -1,0 +1,256 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "espresso",
+          "color": "var(--color-espresso)",
+          "name": "Espresso"
+        },
+        {
+          "slug": "roast",
+          "color": "var(--color-roast)",
+          "name": "Roast"
+        },
+        {
+          "slug": "mahogany",
+          "color": "var(--color-mahogany)",
+          "name": "Mahogany"
+        },
+        {
+          "slug": "caramel",
+          "color": "var(--color-caramel)",
+          "name": "Caramel"
+        },
+        {
+          "slug": "cream",
+          "color": "var(--color-cream)",
+          "name": "Cream"
+        },
+        {
+          "slug": "milk",
+          "color": "var(--color-milk)",
+          "name": "Milk"
+        },
+        {
+          "slug": "charcoal",
+          "color": "var(--color-charcoal)",
+          "name": "Charcoal"
+        },
+        {
+          "slug": "mist",
+          "color": "var(--color-mist)",
+          "name": "Mist"
+        },
+        {
+          "slug": "white",
+          "color": "var(--color-white)",
+          "name": "White"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "ember-fade",
+          "gradient": "linear-gradient(135deg, var(--color-espresso) 0%, var(--color-caramel) 100%)",
+          "name": "Ember Fade"
+        },
+        {
+          "slug": "oak-mist",
+          "gradient": "linear-gradient(180deg, var(--color-cream) 0%, var(--color-mist) 100%)",
+          "name": "Oak Mist"
+        },
+        {
+          "slug": "roast-to-mahogany",
+          "gradient": "linear-gradient(135deg, var(--color-roast) 0%, var(--color-mahogany) 100%)",
+          "name": "Roast to Mahogany"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fontFamilies": [
+        {
+          "slug": "playfair-display",
+          "fontFamily": "'Playfair Display', Georgia, serif",
+          "name": "Playfair Display"
+        },
+        {
+          "slug": "inter",
+          "fontFamily": "'Inter', system-ui, -apple-system, sans-serif",
+          "name": "Inter"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "xs",
+          "size": "clamp(0.694rem, 0.65rem + 0.22vw, 0.8rem)",
+          "name": "XS"
+        },
+        {
+          "slug": "sm",
+          "size": "clamp(0.833rem, 0.78rem + 0.27vw, 0.938rem)",
+          "name": "SM"
+        },
+        {
+          "slug": "base",
+          "size": "clamp(1rem, 0.935rem + 0.33vw, 1.125rem)",
+          "name": "Base"
+        },
+        {
+          "slug": "md",
+          "size": "clamp(1.2rem, 1.12rem + 0.4vw, 1.375rem)",
+          "name": "MD"
+        },
+        {
+          "slug": "lg",
+          "size": "clamp(1.44rem, 1.34rem + 0.5vw, 1.688rem)",
+          "name": "LG"
+        },
+        {
+          "slug": "xl",
+          "size": "clamp(1.728rem, 1.6rem + 0.64vw, 2.063rem)",
+          "name": "XL"
+        },
+        {
+          "slug": "2xl",
+          "size": "clamp(2.074rem, 1.92rem + 0.77vw, 2.5rem)",
+          "name": "2XL"
+        },
+        {
+          "slug": "3xl",
+          "size": "clamp(2.488rem, 2.29rem + 0.99vw, 3.063rem)",
+          "name": "3XL"
+        },
+        {
+          "slug": "4xl",
+          "size": "clamp(2.986rem, 2.74rem + 1.23vw, 3.75rem)",
+          "name": "4XL"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 7,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      },
+      "spacingSizes": [
+        {
+          "slug": "10",
+          "size": "var(--space-10)",
+          "name": "Space 10"
+        },
+        {
+          "slug": "20",
+          "size": "var(--space-20)",
+          "name": "Space 20"
+        },
+        {
+          "slug": "30",
+          "size": "var(--space-30)",
+          "name": "Space 30"
+        },
+        {
+          "slug": "40",
+          "size": "var(--space-40)",
+          "name": "Space 40"
+        },
+        {
+          "slug": "50",
+          "size": "var(--space-50)",
+          "name": "Space 50"
+        },
+        {
+          "slug": "60",
+          "size": "var(--space-60)",
+          "name": "Space 60"
+        },
+        {
+          "slug": "70",
+          "size": "var(--space-70)",
+          "name": "Space 70"
+        },
+        {
+          "slug": "80",
+          "size": "var(--space-80)",
+          "name": "Space 80"
+        },
+        {
+          "slug": "90",
+          "size": "var(--space-90)",
+          "name": "Space 90"
+        },
+        {
+          "slug": "100",
+          "size": "var(--space-100)",
+          "name": "Space 100"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--color-cream)",
+      "text": "var(--color-charcoal)"
+    },
+    "typography": {
+      "fontFamily": "var(--font-inter, 'Inter', system-ui, -apple-system, sans-serif)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontFamily": "var(--font-playfair, 'Playfair Display', Georgia, serif)"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--color-caramel)"
+        },
+        ":hover": {
+          "color": {
+            "text": "var(--color-mahogany)"
+          }
+        }
+      }
+    }
+  }
+}
