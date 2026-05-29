@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a WordPress eXtended RSS file generated for the Ember & Oak demo -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Ember &amp; Oak</title>
+	<link>http://ember-oak.local</link>
+	<description>Small-Batch Coffee Roasters, Brooklyn NY</description>
+	<pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://ember-oak.local</wp:base_site_url>
+	<wp:base_blog_url>http://ember-oak.local</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[emberoak]]></wp:author_login>
+		<wp:author_email><![CDATA[hello@emberandoak.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Ember & Oak]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Ember]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[Oak]]></wp:author_last_name>
+	</wp:author>
+
+	<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename>blog</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Blog]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>2</wp:term_id>
+		<wp:category_nicename>brewing-guides</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Brewing Guides]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>3</wp:term_id>
+		<wp:category_nicename>origin-stories</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Origin Stories]]></wp:cat_name>
+	</wp:category>
+
+	<!-- ======= PAGES ======= -->
+
+	<item>
+		<title>Home</title>
+		<link>http://ember-oak.local/</link>
+		<pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<content:encoded><![CDATA[Welcome to Ember &amp; Oak.]]></content:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 12:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>About Us</title>
+		<link>http://ember-oak.local/about-us/</link>
+		<pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<content:encoded><![CDATA[Our story begins with a simple belief: that great coffee starts with great relationships — with farmers, with the land, and with you.]]></content:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 12:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[about-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/page-about.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Coffee Menu</title>
+		<link>http://ember-oak.local/coffee-menu/</link>
+		<pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<content:encoded><![CDATA[Browse our current selection of single-origin coffees and house blends, each roasted to order in our Brooklyn workshop.]]></content:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 12:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[coffee-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/page-menu.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Contact</title>
+		<link>http://ember-oak.local/contact/</link>
+		<pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<content:encoded><![CDATA[We love hearing from fellow coffee lovers. Drop us a line, visit the roastery, or just say hello.]]></content:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 12:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/page-contact.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- ======= COFFEE BLENDS ======= -->
+
+	<item>
+		<title>Morning Light Ethiopian</title>
+		<link>http://ember-oak.local/blends/morning-light-ethiopian/</link>
+		<pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[A luminous light roast from the highlands of Yirgacheffe, with jasmine florals, bright bergamot, and a clean lemon finish.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>Some coffees ask to be savored slowly, and our Morning Light Ethiopian is exactly that. Sourced from smallholder farmers in the Yirgacheffe region of southern Ethiopia — where coffee itself was born — this is a cup that rewards patience and attention.</p>
+
+<p>We roast it light to preserve everything the terroir has to offer: the unmistakable floral quality of Ethiopian Heirloom varieties, the bright citrus acidity that tea drinkers often love, and a delicate sweetness that needs no sugar to feel complete. The process is washed, which strips away the fruit and lets the bean's natural character shine through with clarity.</p>
+
+<p>Brew it as a pour over or in an AeroPress at 93°C for the cleanest expression. Or try it cold-brewed overnight for a jasmine-forward concentrate that makes a stunning iced coffee. However you drink it, Morning Light is our invitation to slow down for a moment.</p>
+		]]></content:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 09:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[morning-light-ethiopian]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_blend]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[roast_level]]></wp:meta_key>
+			<wp:meta_value><![CDATA[light]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[tasting_notes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Jasmine, bergamot, lemon finish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[origin_region]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Yirgacheffe, Ethiopia]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[process]]></wp:meta_key>
+			<wp:meta_value><![CDATA[washed]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[weight_options]]></wp:meta_key>
+			<wp:meta_value><![CDATA[250g,500g]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Brooklyn Dark</title>
+		<link>http://ember-oak.local/blends/brooklyn-dark/</link>
+		<pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[A bold, full-bodied dark roast blend of Colombian and Sumatran beans with dark chocolate, tobacco, and a cedar finish.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>Brooklyn Dark is for the mornings when you need something with backbone. A blend of Colombian Huila and Sumatran Mandheling, roasted dark until the oils surface and the flavor deepens into something complex and unapologetic.</p>
+
+<p>The Colombian brings structure — a clean, bright framework that keeps the cup from tipping into bitterness. The Sumatran adds the weight: earthy, full-bodied, with that characteristic tobacco and cedar note that Sumatra coffee is known for. Together they create something greater than either alone: a cup with depth, presence, and a long, satisfying finish.</p>
+
+<p>Brooklyn Dark pulls beautifully as espresso — expect a thick, rust-colored crema and a flavor that holds up through milk without disappearing. As a French press or drip brew it's equally commanding. This is the blend we reach for when the workday ahead demands clarity and resolve.</p>
+		]]></content:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 09:05:00]]></wp:post_date>
+		<wp:post_name><![CDATA[brooklyn-dark]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_blend]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[roast_level]]></wp:meta_key>
+			<wp:meta_value><![CDATA[dark]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[tasting_notes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Dark chocolate, tobacco, cedar finish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[origin_region]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Huila, Colombia &amp; Sumatra, Indonesia]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[process]]></wp:meta_key>
+			<wp:meta_value><![CDATA[natural]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[22]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[weight_options]]></wp:meta_key>
+			<wp:meta_value><![CDATA[250g,500g,1kg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Caramel House Blend</title>
+		<link>http://ember-oak.local/blends/caramel-house-blend/</link>
+		<pubDate>Thu, 28 May 2026 09:10:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[Our approachable everyday medium roast — Brazilian and Guatemalan beans with caramel, hazelnut, and brown sugar sweetness.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>Every roastery needs a house blend — a coffee that works for everyone, every day, every brewing method. Our Caramel House Blend is ours: unpretentious, reliably delicious, and impossible to mess up.</p>
+
+<p>We blend Brazilian Cerrado with Guatemalan Antigua, both processed honey-style. The honey process — where some of the fruit mucilage is left on the bean during drying — adds a natural sweetness and body that makes this blend taste richer than its medium roast level might suggest. The result is caramel up front, hazelnut in the mid-palate, and a brown-sugar sweetness that lingers.</p>
+
+<p>The Caramel House Blend is what we serve at our café counter, what we use for training, and what most of our regulars subscribe to. It makes excellent drip coffee, a forgiving espresso, and a genuinely great cold brew. If you're buying your first bag from us, start here.</p>
+		]]></content:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 09:10:00]]></wp:post_date>
+		<wp:post_name><![CDATA[caramel-house-blend]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_blend]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[roast_level]]></wp:meta_key>
+			<wp:meta_value><![CDATA[medium]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[tasting_notes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Caramel, hazelnut, brown sugar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[origin_region]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Cerrado, Brazil &amp; Antigua, Guatemala]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[process]]></wp:meta_key>
+			<wp:meta_value><![CDATA[honey]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[19]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[weight_options]]></wp:meta_key>
+			<wp:meta_value><![CDATA[250g,500g,1kg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Espresso Classico</title>
+		<link>http://ember-oak.local/blends/espresso-classico/</link>
+		<pubDate>Thu, 28 May 2026 09:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[A classic espresso blend delivering rich crema, bittersweet chocolate, and a bright orange peel note on the finish.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>Espresso is an unforgiving brew method — there's nowhere to hide. The Espresso Classico is our answer to that challenge: a blend designed from the ground up for the portafilter, dialed in for the 9-bar extraction that turns coffee into something concentrated, intense, and deeply satisfying.</p>
+
+<p>We blend several washed Latin American and East African coffees in proportions we've refined over four years of daily pulling. The result is a thick, persistent crema the color of rust; a flavor profile that leads with bittersweet chocolate, opens into a bright, almost orange-peel citrus note, and finishes clean. It cuts through milk beautifully — a flat white made with Espresso Classico is one of our most-ordered café drinks.</p>
+
+<p>If you're pulling this at home, we recommend 18g in / 36–38g out in 27–30 seconds at 93°C. But honestly, this blend is forgiving by design. A few seconds off and it still tastes like a proper espresso. That's what we were going for.</p>
+		]]></content:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 09:15:00]]></wp:post_date>
+		<wp:post_name><![CDATA[espresso-classico]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_blend]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[roast_level]]></wp:meta_key>
+			<wp:meta_value><![CDATA[espresso]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[tasting_notes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Rich crema, bittersweet chocolate, orange peel]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[origin_region]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Latin America &amp; East Africa blend]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[process]]></wp:meta_key>
+			<wp:meta_value><![CDATA[washed]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[24]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[weight_options]]></wp:meta_key>
+			<wp:meta_value><![CDATA[250g,500g,1kg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- ======= EVENTS ======= -->
+
+	<item>
+		<title>Introduction to Home Brewing</title>
+		<link>http://ember-oak.local/events/intro-home-brewing/</link>
+		<pubDate>Thu, 28 May 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[A hands-on evening workshop covering pour over, AeroPress, and French press techniques. All equipment provided.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>You don't need a fancy machine to brew exceptional coffee at home. In this two-hour hands-on workshop, our head barista James will walk you through three methods — pour over, AeroPress, and French press — covering grind size, water temperature, brew ratios, and the small adjustments that make the difference between a good cup and a great one.</p>
+
+<p>All brewing equipment is provided. You'll leave with tasting notes from each brew, a recipe card to take home, and a 50g sample of the Morning Light Ethiopian to practice with. Limited to 12 participants to keep it personal and hands-on. Beginners very welcome — no prior knowledge required, just curiosity and a love of coffee.</p>
+		]]></content:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 10:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[intro-home-brewing]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_event]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-07-15]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Roastery, 123 Roastery Lane, Brooklyn NY 11201]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[$45 per person]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_capacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Origin Trip: Ethiopia</title>
+		<link>http://ember-oak.local/events/origin-trip-ethiopia/</link>
+		<pubDate>Thu, 28 May 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<excerpt:encoded><![CDATA[A tasting journey through Ethiopia's major coffee-growing regions — Yirgacheffe, Sidama, and Harrar — with a guided cupping and producer story.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>Ethiopia is where coffee began, and its regional diversity is unmatched anywhere in the world. In this guided tasting event, we'll travel through three distinct growing regions — the floral highland coffees of Yirgacheffe, the stone-fruit richness of Sidama, and the wild, wine-like naturals of Harrar — without leaving Brooklyn.</p>
+
+<p>Co-founder Marcus will lead the cupping, sharing what he learned on a sourcing trip to Addis Ababa and the Rift Valley last year: the farmers behind the beans, the processing stations, the varieties, and the remarkable range of flavor that Ethiopian coffee can produce. This is a coffee education event as much as a tasting — you'll finish the evening with a vocabulary and a palate that will change how you drink coffee. No experience required, curiosity strongly encouraged.</p>
+		]]></content:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-28 10:05:00]]></wp:post_date>
+		<wp:post_name><![CDATA[origin-trip-ethiopia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[ember_event]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_date]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2026-08-20]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[7:00 PM]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[The Roastery, 123 Roastery Lane, Brooklyn NY 11201]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[$35 per person]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[event_capacity]]></wp:meta_key>
+			<wp:meta_value><![CDATA[20]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- ======= BLOG POSTS ======= -->
+
+	<item>
+		<title>The Art of the Perfect Pour Over</title>
+		<link>http://ember-oak.local/the-art-of-the-perfect-pour-over/</link>
+		<pubDate>Mon, 11 May 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<category domain="category" nicename="brewing-guides"><![CDATA[Brewing Guides]]></category>
+		<excerpt:encoded><![CDATA[The pour over is the most transparent way to brew coffee — and the most rewarding to master. Here's everything you need to know.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>The pour over is not forgiving, and that's exactly why we love it. Unlike espresso, where the machine shoulders some of the technical burden, or the French press, where time and temperature do most of the work, the pour over asks you to be present. Your pour rate, your water temperature, your grind — every variable is yours to control, and every cup reflects exactly what you did.</p>
+
+<p>Start with freshly roasted beans ground at medium-coarse, just coarser than table salt. Pre-wet your filter with hot water to remove any paper taste and pre-heat your vessel. Use water at 92–94°C — not boiling, not lukewarm. Add 15g of coffee per 250ml of water. Begin with a bloom pour: just enough water to wet all the grounds (about 2x the coffee weight in water). Wait 30–45 seconds while the coffee degasses. Then pour in slow, steady circles, maintaining a gentle flow that keeps the bed of coffee evenly saturated.</p>
+
+<p>Total brew time should land between 3:00 and 3:30. Faster means your grind is too coarse or your pour too fast; slower means the inverse. Adjust one variable at a time, take notes, and taste everything. The pour over rewards the curious — and punishes the impatient, which is a trade most coffee people are very happy to make.</p>
+		]]></content:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-11 09:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[art-of-the-perfect-pour-over]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>Why We Source from Ethiopia</title>
+		<link>http://ember-oak.local/why-we-source-from-ethiopia/</link>
+		<pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<category domain="category" nicename="origin-stories"><![CDATA[Origin Stories]]></category>
+		<excerpt:encoded><![CDATA[Ethiopia is where coffee began, and it's where some of the world's most extraordinary flavors still grow wild. Here's why it anchors our menu.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>There's a forest in the Kaffa region of southwestern Ethiopia where wild coffee trees grow in the shade of towering canopies, just as they have for centuries. Nobody planted them. Nobody irrigated or fertilized them. They just grow, as they always have, producing small cherries that fall to the forest floor and re-seed themselves in an unbroken cycle. When people talk about coffee's origins, this is what they mean — and it's not a metaphor. This is the actual place.</p>
+
+<p>We source our Ethiopian coffees primarily from the Yirgacheffe zone in the south, working through an export partner who has direct relationships with the washing stations and cooperatives. What that means in practice: we know which station processed our beans, we know the general elevation, and we can trace our purchase back to a specific community, even if not always to a specific farm. For a crop as geographically and genetically diverse as Ethiopian coffee, this level of traceability is genuinely meaningful.</p>
+
+<p>The flavors are unlike anything grown elsewhere — bright bergamot and jasmine from the high-altitude washed coffees of Yirgacheffe; blueberry and dark fruit from the natural-processed beans of Sidama; wild, fermented, wine-like intensity from the dry-processed coffees of Harrar. Ethiopia is not one origin. It is dozens of origins, wearing one name on the bag. That complexity is why it anchors our menu, and why we keep going back.</p>
+		]]></content:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-27 09:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[why-we-source-from-ethiopia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>Welcome to Ember &amp; Oak</title>
+		<link>http://ember-oak.local/welcome-to-ember-and-oak/</link>
+		<pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[emberoak]]></dc:creator>
+		<category domain="category" nicename="blog"><![CDATA[Blog]]></category>
+		<excerpt:encoded><![CDATA[We've been roasting quietly in Brooklyn for eight years. Here's who we are, what we believe, and why we finally built a website.]]></excerpt:encoded>
+		<content:encoded><![CDATA[
+<p>We started Ember &amp; Oak in 2018 in a rented corner of a shared warehouse space in Bushwick, with one second-hand roaster, a Probat we nursed back to life over three weekends, and a mailing list of about 40 people — most of them friends. The first batch we sold was a Colombian Huila. It was good. Not exceptional, but good. We learned from it, adjusted, and roasted again the following week.</p>
+
+<p>Eight years later, we're still in Brooklyn, still roasting in small batches, still adjusting every week. The roaster is newer. The list is longer. We have a café counter now, a handful of wholesale accounts, and a small team of people who care more about coffee than any reasonable person probably should. What hasn't changed is the approach: source well, roast carefully, obsess over the details that most people would never notice but that show up in the cup regardless.</p>
+
+<p>We built this website because people kept asking where they could find us online, and the answer was "we're working on it" for an embarrassingly long time. It's here now. You can read about our coffees, find out about our workshops and events, and order beans for delivery across the US. We ship Tuesdays and Thursdays, always within a few days of the roast date. If you have questions — about a coffee, about brewing, about anything — the email on the contact page goes directly to us. We write back.</p>
+		]]></content:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-06 09:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[welcome-to-ember-and-oak]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+</channel>
+</rss>
